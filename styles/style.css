@@ -1,8 +1,8 @@
-/*div, main, body, header, .header__title, p, .logo_place-header,
+div, main, body, header, nav, .header__title, p, .logo,
 .section-title, .section-subtitle, .feinman, 
 .feinman__title
 
-{border: 1px solid red;}*/
+{border: 1px solid red;}
 
 .page {
     min-width: 1100px;
@@ -32,10 +32,10 @@
     width: 183px;
     height: 32px;}
 
-.logo_place-header {
+.logo_place_header {
     position: absolute;
     top: 30px;
-    left: 64px;}
+    left: 64px;}  /*<!--испр.-->*/
 
 .header__title {
     z-index: 2;
@@ -145,8 +145,7 @@
   
 
 
-.table {
-    font-size: 24px;
+.table {  
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -160,6 +159,7 @@
 
 .table__heading {
     line-height: 1.15;
+    font-size: 24px;    /*<!--испр.-->*/
     font-weight: bold;
     margin: 0;}
 
@@ -168,14 +168,7 @@
     font-size: 18px;
     margin: 20px 0 0;}
 
-.table {
-  font-size: 24px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
-  width: 1100px;}
+
 
 .table__cell {
   width: 250px;
@@ -200,6 +193,7 @@
 
 
   .feinman {
+    padding-top: 100px; /*--испр.--*/
     position: relative;
     height: 790px;
     background-color: #F2F2F2;
@@ -218,11 +212,9 @@
     text-align: center;
     line-height: 1.15;
     font-size: 120px;
-    margin-top: 100px;
     width: 648px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 2;}
+    margin: 0 auto; /*--испр.--*/
+}
 
 .feinman__subtitle {
     line-height: 51px;
@@ -252,7 +244,7 @@
     overflow: hidden;
     padding: 90px 0;}
 
-.section-title_theme-dark {
+.section-title_theme_dark {
   color: #fff;
   position: relative;
   z-index: 1;}
@@ -279,6 +271,7 @@
 
 
 .kaufman__triangle {
+  background-image: url(../images/triangle.svg);   /*--испр.--*/
   background-size: cover;
   position: absolute;
   width: 877px;
@@ -293,8 +286,9 @@
     background-color:#1F1F1F;
     padding: 60px 0 40px;}  
 
-.logo_place-footer {
-    color: white;}
+.logo_place_footer {
+    color: white;
+    height: 35px;}    /*<!--испр.-->*/
 
 .footer__columns {
     display: flex;
@@ -306,11 +300,14 @@
       min-height:350px;}
 
 .footer__column_content_copyright {
-    flex-basis: 771px;  
-    position: relative;}
+    display: flex;   /*<!--испр.-->*/
+    flex-basis: 771px;
+    flex-direction: column;    /*<!--испр.-->*/
+    justify-content: space-between;     /*<!--испр.-->*/
+    }
 
 .footer__author {
-    position: absolute;
+    /*position: absolute;*/ /*Убрать, 1 версия*/
     bottom: 0;
     line-height: 25px;
     font-size: 18px;
