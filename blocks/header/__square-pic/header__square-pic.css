@@ -1,7 +1,9 @@
-@keyframes rotation-square {
-    from {transform: rotate(-15deg);}
-    to   {transform: rotate(345deg);}
-  }
+@import url(../../rotation/rotation.css);
+
+/*@keyframes rotation-square {
+  from {transform: rotate(-15deg);}
+  to   {transform: rotate(345deg);}
+}*/
 
 .header__square-pic {
     width: 568px;

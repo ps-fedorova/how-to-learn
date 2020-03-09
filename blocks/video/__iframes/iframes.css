@@ -1,0 +1,10 @@
+.iframes {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    width: 1050px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+}
