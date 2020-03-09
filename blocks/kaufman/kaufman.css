@@ -1,0 +1,22 @@
+@import url(./__triangle/kaufman__triangle.css);
+@import url(../section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
+@import url(../section-title/_theme/_dark/section-title_theme_dark.css);
+@import url(../table/_theme/_dark/table_theme_dark.css);
+@import url(../table/__cell/_theme/_dark/table__cell_theme_dark.css);
+@import url(../table/__heading/_theme/_dark/table__heading_theme_dark.css);
+@import url(../table/__text/_theme/_dark/table__text_theme_dark.css);
+
+.kaufman {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+
+    background-color: #1F1F1F;
+    position: relative;
+    overflow: hidden;
+    padding: 90px 0;}
