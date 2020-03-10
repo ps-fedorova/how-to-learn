@@ -1,5 +1,4 @@
 @import url(../two-columns/two-columns.css);
-
 .oakley {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -9,8 +8,7 @@
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
-
-    padding-top:  160px;
+    padding-top: 160px;
     margin: 0 auto;
     background-color: #F2F2f2;
 }

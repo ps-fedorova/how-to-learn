@@ -7,8 +7,6 @@
 @import url(./__quote-author/khan__quote-author.css);
 @import url(./__quote/khan__quote.css);
 @import url(./__title/khan__title.css);
-
-
 .khan {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -18,7 +16,6 @@
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    
     padding-top: 105px;
     display: block;
     background-color: #F2F2f2;
