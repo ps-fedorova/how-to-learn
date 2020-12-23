@@ -1,0 +1,10 @@
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .footer__column_content_social {
+    margin-top: 50px;
+  }
+}

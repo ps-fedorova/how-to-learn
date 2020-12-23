@@ -1,23 +1,23 @@
-@import url(./__columns/footer__columns.css);
-@import url(./__column/_content/_copyright/footer__column_content_copyright.css);
-@import url(./__author/footer__author.css);
-@import url(./__column/footer__column.css);
-@import url(../logo/_place/_footer/logo_place_footer.css);
-@import url(./__column-heading/footer__column-heading.css);
-@import url(./__column-links/footer__column-links.css);
-@import url(./__link/footer__link.css);
-@import url(./__list-item/footer__list-item.css);
-@import url(./__social-icon/footer__social-icon.css);
+@import url('__columns/footer__columns.css');
+@import url('__column/_content/footer__column_content_copyright.css');
+@import url('__column/_content/footer__column_content_info.css');
+@import url('__column/_content/footer__column_content_social.css');
+@import url('__author/footer__author.css');
+@import url('__social-icon/footer__social-icon.css');
+@import url('__column-heading/footer__column-heading.css');
+@import url('__column-links/footer__column-links.css');
+@import url('__link/footer__link.css');
+
 .footer {
-    min-width: 1100px;
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
-    max-width: 1600px;
-    /* выше установили ограничение по максимальной ширине */
-    margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 24px;
-    background-color: #1F1F1F;
-    padding: 60px 0 40px;
+  max-width: 1600px;
+  min-width: 320px;
+  min-height: 350px;
+  margin: 0 auto;
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
 }
