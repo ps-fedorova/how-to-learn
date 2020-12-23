@@ -6,3 +6,11 @@
     margin: 0;
     font-weight: 400;
 }
+
+@media (max-width: 800px) {
+  .two-columns__brief {
+    max-width: initial;
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
+}

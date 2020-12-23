@@ -2,10 +2,18 @@
 @import url(./__main-text/two-columns__main-text.css);
 @import url(./__paragraph/two-columns__paragraph.css);
 @import url(./__span-accent/two-columns__span-accent.css);
+
 .two-columns {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
     font-size: 24px;
+}
+
+@media (max-width: 800px) {
+  .two-columns {
+    flex-direction: column;
+    width: 90%;
+  }
 }
