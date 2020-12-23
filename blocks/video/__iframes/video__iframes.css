@@ -1,9 +1,21 @@
 .video__iframes {
-    display: grid;
-    grid-template-columns: repeat(2, min-content);
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
-    position: relative;
-    top: 50px;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+  .video__iframes {
+    grid-template-columns: repeat(1, 1fr);
+    width: 75%
+  }
 }
