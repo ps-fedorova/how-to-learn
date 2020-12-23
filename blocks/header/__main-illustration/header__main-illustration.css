@@ -1,9 +1,15 @@
 .header__main-illustration {
-    width: 765px;
-    height: 608px;
-    background-size: cover;
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  width: calc(765 / 1440 * 100vw);
+  max-width: 765px;
+  height: auto;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 800px) {
+  .header__main-illustration {
+    display: none;
+  }
 }

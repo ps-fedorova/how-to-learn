@@ -1,0 +1,6 @@
+.header__logo-position {
+  display: flex;
+  margin: 30px auto auto auto;
+  position: relative;
+  width: 90%;
+}
