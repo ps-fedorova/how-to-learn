@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40ad86f6-714a-4306-965f-8a0f91e8437c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blocks/cards/__item/cards__item.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/description/description.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/description/description.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/two-columns/__brief/two-columns__brief.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/two-columns/__brief/two-columns__brief.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/two-columns/__main-text/two-columns__main-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/two-columns/__main-text/two-columns__main-text.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/two-columns/two-columns.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/two-columns/two-columns.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/cards/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/cards/cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/technics/technics.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/technics/technics.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597785526369</updated>
       <workItem from="1597785528851" duration="2837000" />
-      <workItem from="1608710284986" duration="19512000" />
+      <workItem from="1608710284986" duration="22896000" />
     </task>
     <servers />
   </component>
@@ -85,5 +84,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860/-1366.0.1366.768@0.0.1600.860" timestamp="1608722795653" />
+    <state x="507" y="163" width="585" height="534" key="find.popup" timestamp="1608738108293">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="163" width="585" height="534" key="find.popup/0.0.1600.860/-1366.0.1366.768@0.0.1600.860" timestamp="1608738108293" />
   </component>
 </project>
