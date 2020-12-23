@@ -8,7 +8,7 @@
   max-width: 1000px;
   grid-template-columns: repeat(auto-fill, 240px);
   row-gap: 60px;
-  column-gap: 100px;
+  grid-column-gap: 100px;
   width: 90%;
   justify-content: center;
   text-align: center;
