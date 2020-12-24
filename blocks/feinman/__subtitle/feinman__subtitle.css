@@ -6,6 +6,7 @@
   margin: 250px 0 0;
   position: relative;
   transition: all 1s;
+  width: 90%;
 }
 
 @media (max-width: 1280px) {

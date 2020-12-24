@@ -1,8 +1,6 @@
 @import url(./__iframe/video__iframe.css);
 @import url(./__iframe-item/video__iframe-item.css);
 @import url(./__iframes/video__iframes.css);
-@import url(../section-title/section-title.css);
-@import url(../section-subtitle/section-subtitle.css);
 
 .video {
   max-width: 1600px;

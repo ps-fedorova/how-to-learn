@@ -2,3 +2,10 @@
     width: 80%;
     margin: 0 auto;
 }
+
+@media (max-width: 800px) {
+  .khan__container {
+    width: 90%;
+  }
+}
+

@@ -1,0 +1,17 @@
+.khan__book-pic-container {
+  position: relative;
+  width: 50%;
+}
+
+.khan__book-pic-container::after {
+  display: block;
+  content: '';
+  padding-bottom: calc(620 / 608 * 100%);
+}
+
+@media (max-width: 600px) {
+  .khan__book-pic-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
